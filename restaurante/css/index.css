@@ -7,6 +7,9 @@
 body{
     background-color: #fff9ea;
 }
+section{
+    padding: 28px 8px;
+}
 .btndefault{
     border: none;
     display: flex;
