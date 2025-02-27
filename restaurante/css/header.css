@@ -2,7 +2,7 @@ header{
     width: 100%;
     padding: 28px 8%;
 }
-.navbar{
+#navbar{
     width: 100%;
     display: flex;
     align-items: center;
@@ -13,14 +13,14 @@ header{
     color: rgb(170, 4, 4);
 
 }
-.nav_list{
+#nav_list{
     display: flex;
     list-style: none;
-    gap: 40px;
+    gap: 48px;
 }
 .navitem a{
     text-decoration: none;
-    color: #1d1d1d;
+    color: #1d1d1dad;
     font-weight: 600;
 }
 .navitem.active a{
@@ -30,11 +30,12 @@ header{
 #mobilebtn{
     display: none;
 }
-.mobilemenu{
+#mobilemenu{
     display: none;
 }
 @media screen and (max-width:1170px){
-    .nav_list, .navbar,.btndefault{
+    #nav_list, 
+    #navbar .btndefault{
         display: none;
     }
     #mobilebtn{
