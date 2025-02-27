@@ -1,6 +1,6 @@
 $(document).ready(function(){
-    $('#mmobilebtn').on('click',function(){
+    $('#mobilebtn').on('click', function(){
         $('#mobilemenu').toggLeClass('active');
-        $('#mmobilebtn').find('i').toggLeClass('fa-x');
+        $('#mobilebtn').find('i').toggLeClass('fa-x');
     });
 });

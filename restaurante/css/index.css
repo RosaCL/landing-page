@@ -8,14 +8,14 @@ body{
     background-color: #fff9ea;
 }
 section{
-    padding: 28px 8px;
+    padding: 28px 8%;
 }
 .btndefault{
     border: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #ffcb4f;
+    background-color: red;
     border-radius: 12px;
     padding: 10px 14px;
     font-weight: 600;
@@ -24,5 +24,28 @@ section{
     transition: background-color .3s ease;
 }
 .btndefault:hover{
-    background-color: #f8d477;
+    background-color: rgba(224, 100, 100, 0.774);
+}
+
+.socialmidia-btn{
+    display: flex;
+    gap: 18px;
+}
+.socialmidia-btn a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    background-color: #fff9ea;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #1d1d1d;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow .3s ease;
+
+}
+.socialmidia-btn a:hoover{
+    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
 }
