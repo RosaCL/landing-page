@@ -24,16 +24,18 @@
     <link rel="stylesheet" href="./css/testemunho.css">
     <!-- Footer -->
     <link rel="stylesheet" href="./css/footer.css">
+    <!--Animações -->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
 </head>
 <body>
     <header>
         <nav id="navbar">
-            <i class="fa-solid fa-cookie-bite"> Cookilicious</i>
+            <i id="nav_logo" class="fa-solid fa-cookie-bite"> Cookilicious</i>
             <ul id="nav_list">
-                <li class="navitem active"><a href="#">Home</a></li>
-                <li class="navitem active"><a href="#">Cardápio</a></li>
-                <li class="navitem active"><a href="#">Avaliações</a></li>
+                <li class="navitem active"><a href="#home">Home</a></li>
+                <li class="navitem"><a href="#menu">Cardápio</a></li>
+                <li class="navitem"><a href="#testemunho">Avaliações</a></li>
             </ul>
             <button class="btndefault">
                 Peça aqui
@@ -44,9 +46,9 @@
         </nav>
         <div class="mobilemenu" id="mobilemenu">
             <ul id="mobile_nav_list">
-                <li class="navitem"><a href="#">Home</a></li>
-                <li class="navitem"><a href="#">Cardápio</a></li>
-                <li class="navitem"><a href="#">Avaliações</a></li>
+                <li class="navitem"><a href="#home">Home</a></li>
+                <li class="navitem"><a href="#menu">Cardápio</a></li>
+                <li class="navitem"><a href="#testemunho">Avaliações</a></li>
             </ul>
             <button class="btndefault">
                 Peça aqui
@@ -55,12 +57,10 @@
     </header>
     <main id="content">
         <section id="home">
-            <div class="shape">
-
-            </div>
+            <div class="shape"></div>
             <div id="cta">
                 <h1 class="title">
-                    O sabor vai até  <span>você</span>
+                    O sabor que vai até  <span>você</span>
                 </h1>
                 <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque iusto ab fugiat, harum ullam ut cumque debitis, repudiandae tempora aperiam doloremque pariatur quibusdam tempore dolor optio nam dolore aliquam! Rem!</p>
                 <div id="cta-btns">
@@ -109,7 +109,7 @@
                     </div>
                     <div class="cookie-price">
                         <h4>R$ 12,00</h4>
-                        <h5>E uma cadeira confortável</h5>
+                        <h5>ou uma cadeira confortável</h5>
                         <button class="btndefault">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </button>
@@ -211,7 +211,7 @@
             <div id="testemunho-content">
                 <h2 class="section-title">Depoimentos</h2>
                 <h3 class="section-subtitle">
-                    O que os clinetes falam sobre nós
+                    O que os cookielovers falam sobre nós
                 </h3>
                 <div id="feedback">
                     <div class="feedback">
@@ -254,6 +254,7 @@
     </main>
     <footer>
         <div class="footer-itens">
+            <img src="./img/wave.svg" alt="">
             <span id="copyright">
                 <a href="https://github.com/RosaCL"><img class="const" src="./img/costi.svg" alt=""></a>  &copy 2025 
             </span>
