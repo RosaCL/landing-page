@@ -1,0 +1,30 @@
+.consti{
+    width: 60px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 54px 0;
+    gap: 24px;
+    color: #ffffff;
+}
+.footer-itens{
+    display: flex;
+    gap: 8px;
+    color: #ffffff;
+}
+.whatsapp-btn{
+    position: fixed;
+    bottom: 14px;
+    right: 24px;
+    z-index: 99;
+}
+.whatsapp-btn img{
+    max-width: 74px;
+    transition: transform 0.4s;
+}
+.whatsapp-btn img:hover{
+    transform: scale(1.1);
+}
