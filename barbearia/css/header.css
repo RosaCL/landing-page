@@ -9,7 +9,7 @@ header{
     justify-content: space-between;
 }
 i{
-    color: var(--neutral-normal);
+    color: #fefbff;
 
 }
 .header-icons{
@@ -19,7 +19,7 @@ i{
 .header-icons a:hover{
     i{
         animation: translateY 0.8s infinite alternate;
-        color: var(--auxiliary-light);
+        color: #0c2135;
     }
 }
 @keyframes translateY{
@@ -38,13 +38,13 @@ i{
     border: 1px solid #fefbff;
     padding: 8px 24px;
     border-radius: 4px;
-    color: var(--neutral-normal);
+    color: var(--white-normal);
     background-color: transparent;
     transition: background-color 0.8s;
 }
 .header-button:hover{
-    border: 1px solid var(--auxiliary-light);
-    background-color: var(--auxiliary-light);
+    border: 1px solid #0c2135;
+    background-color: #0c2135;
 }
 .header-logo{
     display: flex;

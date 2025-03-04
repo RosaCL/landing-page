@@ -23,7 +23,7 @@
     opacity: 0.9;
 }
 .hero{
-    color: var(--neutral-normal);
+    color: #ffffff;
     min-height: 80vh;
     display: flex;
     flex-direction: column;
@@ -46,8 +46,8 @@
 }
 .button-contact{
     padding: 14px 28px;
-    color: var(--neutral-normal);
-    background-color: var(--auxiliary-light);
+    color: #ffffff;
+    background-color: #0c2135;
     border: 0px;
     font-size: 18px;
     font-weight: 600;
