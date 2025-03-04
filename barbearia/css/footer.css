@@ -15,6 +15,18 @@
     gap: 8px;
     color: #ffffff;
 }
+.map h2{
+    color: #090d11;
+    text-align: center;
+    font-size: 2em;
+    background-color: #ffffff;
+
+}
+.logo-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .whatsapp-btn{
     position: fixed;
     bottom: 14px;
