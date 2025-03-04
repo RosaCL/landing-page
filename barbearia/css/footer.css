@@ -28,3 +28,27 @@
 .whatsapp-btn img:hover{
     transform: scale(1.1);
 }
+.whatsapp-btn .tooltip-txt{
+    visibility: hidden;
+    position: absolute;
+    width: 120px;
+    top: 8px;
+    left: -144px;
+    padding: 6px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #16161633;
+    color: #ffffff;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+.whatsapp-btn:hover .tooltip-txt{
+    visibility: visible;
+    opacity: 1;
+}
+@media screen and (max-width:768px) {
+    .whatsapp-btn img{
+        max-width: 64px;
+    }
+    
+}

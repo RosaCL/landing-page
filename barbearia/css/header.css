@@ -31,14 +31,14 @@ i{
     }
 }
 .logo{
-    width: 80px;
+    width: 30%;
     border-radius: 100%;
 }
 .header-button{
     border: 1px solid #fefbff;
     padding: 8px 24px;
     border-radius: 4px;
-    color: var(--white-normal);
+    color: #fefbff;
     background-color: transparent;
     transition: background-color 0.8s;
 }
