@@ -155,7 +155,7 @@ button{
     background: #241a1c;
     padding: 2rem;
     border-radius: 8px;
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     gap: 2rem;
     flex-basis: 29rem;
@@ -211,7 +211,7 @@ footer{
     align-items: center;
     justify-content: center;
     gap: 10px;
-    background: #23181A;
+   
 }
 footer p{
     color: #FFF2E7;
