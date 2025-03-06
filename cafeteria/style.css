@@ -13,7 +13,7 @@ html{
     font-weight: 500;
 }
 nav{
-    max-width: 1120px;
+
     margin: auto;
     padding: 1.5rem 10rem;
     display: flex;
@@ -55,11 +55,10 @@ main{
     background:#181012;
 }
 .hero-content{
-    max-width: 1120px;
     height: 60vh;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 6rem;
 }
@@ -119,10 +118,9 @@ button{
     border-radius: 8px;
     background: #a45a49;
 }
-.receitas{display: flex;
+.receitas{
+    display: flex;
     flex-direction: column;
-
-    max-width: 1120px;
     padding: 3rem 2rem;
     margin: auto;
 
@@ -155,7 +153,7 @@ button{
     background: #241a1c;
     padding: 2rem;
     border-radius: 8px;
-    display: inline-block;
+    display: flex;
     flex-direction: column;
     gap: 2rem;
     flex-basis: 29rem;
@@ -211,7 +209,7 @@ footer{
     align-items: center;
     justify-content: center;
     gap: 10px;
-   
+
 }
 footer p{
     color: #FFF2E7;
@@ -219,3 +217,4 @@ footer p{
     font-size: 1rem; 
     font-weight: 400;
 }
+
