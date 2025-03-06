@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&family=Poiret+One&family=Syne+Mono&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:#5D49A6;
+    color: white;
+    font-family: "Syne Mono", monospace;
+
+}
+.logo{
+    font-family: "Freckle Face", system-ui;
+    font-weight: 400;
+    color: #F2B705;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #F2B705;
+    transition: 0.3s all;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #8D69BF; 
+    padding: 10px 10px 10px;  
+}
+.tittle{
+    flex-direction: column;
+    line-height: 24px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin: 50px;
+    padding: 80px;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 50px;
+}
+span{
+    color: #D94A4A;
+}
+p{
+    line-height: 20px;
+    max-width: 500px;
+}
+
+.hero{
+    width: 800px;
+}
+.btn-inscricao{
+    border: 2px solid #9E3636;
+    padding: 10px;
+    border-radius: 20px;
+}
+.btn-inscricao:hover{
+    background-color: #9E3636;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+.enviar{
+    height: 50%;
+    width: 50%;
+    background-color: #9E3636;
+    color: white;
+    font-weight: bold;
+
+}
+.enviar:hover{
+    color: #F2B705;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #8D69BF; 
+    padding: 10px 10px 10px;     
+}
+@media screen and (max-width:760px) {
+    header{
+        flex-direction: column;
+    }
+    main{
+        flex-direction: column;
+    }
+    form{
+        margin: 0 auto;
+        width: 100%;
+    }
+    input{
+        align-self: center;
+    }
+    .hero{
+        margin-top: 60px;
+        width: 80%;
+    }
+    ul{
+        text-align: center;
+    }
+
+}
