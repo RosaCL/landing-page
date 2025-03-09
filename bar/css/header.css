@@ -1,0 +1,66 @@
+header{
+    width: 100%;
+}
+i{
+    color: azure;
+}
+.menu-rex{
+    float: left;
+    left: 50%;
+    position: relative;
+}
+.menu-rex li{
+    display: inline-block;
+    padding: 0px 30px;
+    cursor: pointer;
+    line-height: 70px;
+    position: relative;
+    transition: all 0.3s ease-out;
+
+}
+.menu-rex li a{
+    font-weight: 200;
+}
+.header-rex{   
+    width: 100%;   
+    height: 70px;
+    position: static;
+    z-index: 1;
+
+}
+
+.header-rex-link{
+    display: inline-block;
+    padding: 0px 30px;
+    cursor: pointer;
+    line-height: 70px;
+    position: relative;
+    transition: all 0.3s ease-out;
+
+}
+.header-rex-link a:hover{
+    color: red;
+
+}
+.logo-rex{
+    float: left;
+    display: block;
+    width: 10%;
+    margin-left: 84px;
+    
+}
+.logo-rex a{
+    transition: all 0.3s ease ease-out;
+}
+.header-button{
+    border: 1px solid white;
+    padding: 8px 24px;
+    border-radius: 4px;
+    color: azure;
+    background-color: transparent;
+    transition: background-color 0.8s;
+}
+.header-button:hover{
+    border: 1px solid red;
+    background-color: red;
+}
