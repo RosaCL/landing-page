@@ -1,0 +1,33 @@
+.sobre{
+    background-color: white;
+    overflow: hidden;
+    color: #ec199183;
+}
+.sobre-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding: 34px 14px 64px 14px;
+}
+.sobre-content img{
+    max-width: 570px;
+}
+
+.sobre-content div{
+    flex: 1;
+}
+.sobre-description h1{
+    font-size: 38px;
+    margin-bottom: 24px;
+
+}
+.sobre-description h2{
+    font-size: 38px;
+    margin-bottom: 24px;
+
+}
+.sobre-description p{
+    margin-bottom: 14px;
+    line-height: 150%;
+}
