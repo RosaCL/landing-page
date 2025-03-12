@@ -8,6 +8,7 @@ i{
     float: left;
     left: 50%;
     position: relative;
+    
 }
 .menu-rex li{
     display: inline-block;
@@ -20,6 +21,7 @@ i{
 }
 .menu-rex li a{
     font-weight: 200;
+    color: azure;
 }
 .header-rex{   
     width: 100%;   
@@ -63,4 +65,13 @@ i{
 .header-button:hover{
     border: 1px solid red;
     background-color: red;
+}
+.logo{
+    width: 30%;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14px;
 }

@@ -27,3 +27,13 @@ button{
 img{
     width: 100%;
 }
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #911616ab;
+    color: whitesmoke;
+}
+.consti{
+    width: fit-content;
+}
