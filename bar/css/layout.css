@@ -6,23 +6,7 @@
 .home-rex{
     position: relative;
 }
-.home-rex:before{
-    content: '';
-    display: block;
-    position: absolute;
-    background-image: linear-gradient(to bottom, #040449
-    , #3a38388f
-    ), url(../img/publico.png);
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    opacity: 0.9;
-}
+
 .herorex{
     color: whitesmoke;
     min-height: 80vh;

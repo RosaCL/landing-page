@@ -1,7 +1,7 @@
 .sobre{
-    background-color: white;
+    
     overflow: hidden;
-    color: #911616ab;  
+    color: white;  
     display: flex;
     flex-direction: row;
     justify-content: space-between;

@@ -1,7 +1,7 @@
 .slider{
     margin: 0 auto;
     width:800px;
-    height: 400px;
+    height: 900px;
     overflow: hidden;
 
 }
@@ -9,6 +9,7 @@
 .slides{
     width: 400%;
     height: 800px;
+    
     display: flex;
 }
 .slides input{

@@ -4,47 +4,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/geral.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/eventos.css">
+   
     <title>Rex Bar</title>
     <!-- Animação -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
-    <div class="home-rex">
-
-    </div>
+<div class="home-rex">
     <header>
-        <nav>
-            <span class="brand">
-                <a href="index.html"><img src="./img/images-removebg-preview.png" alt=""></a>
-            </span>
-            <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato</a></li>
-                <li><a href="#">FAQ</a></li>
-            </ul>
-            <div class="toggle">
-                <div class="span" id="one"></div>
-                <div class="span" id="two"></div>
-                <div class="span" id="three"></div>
+        <nav class="header-rex container">          
+            <div class="header-rex-link">
+                <span class="logo-rex">
+                    <a href="#"><img src="./img/logo.png" alt=""></a>                    
+                </span>
+                <ul class="menu-rex">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Eventos</a></li>
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/rexjazzbar/"><i class="fa-brands fa-instagram fa-2x"></i></a></li>
+                    <li> <a class="header-button" href="#">
+                    Fale Conosco
+                </a></li>
+                </ul>
             </div>
+            
         </nav>
-        <div class="resize">
-            <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato</a></li>
-                <li><a href="#">FAQ</a></li>
-            </ul>
-        </div>
+        <main class="herorex container" >
+            <img class="logo" src="./img/logo.png" alt="">
+            <h1>Melhor Lugar insalubre de Maceió</h1>
+                <p>Horário de funcionamento 22:00 às 05:00</p>           
+
+        </main>
     </header>
-    <main>
-        <div class="content">
-            <h1>Rex Bar</h1>
+</div>
+<section class="eventos-rex">
+    <div class="slider">
+
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <input type="radio" name="radio-btn" id="radio5">
+            <input type="radio" name="radio-btn" id="radio6">
+
+        <div class="slide first">
+                <img src="img/evento1.png" alt="">
         </div>
-    </main>
+        <div class="slide">
+             <img src="img/evento2.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="img/evento4.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="img/evento5.png" alt="">
+        </div>       
+
+        
+    </div>
+        <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>     
+        </div>
+        <div class="navegation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+            
+
+        </div>
+    </div>    
+
+
+</section>
+
+<section class="map">
+    <h2>Venha Conhecer</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3933.1198815152325!2d-35.72789212497314!3d-9.670797090418436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7014571e29e9a19%3A0xf3ae2bf05ca8ac38!2sRex%20Bar!5e0!3m2!1spt-BR!2sbr!4v1741523059573!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+<footer>
+    <p>Copyright 2025 <a target="_blank" href="https://github.com/RosaCL"><img class="consti" src="./img/costureza.png" alt=""></a>  Todos os direitos reservados.</p>
+</footer>
+
 </body>
-<script src="script.js"></script>
+<script src="./Js/script.js"></script>
+<script src="./Js/eventos.js"></script>
 </html>
