@@ -57,14 +57,14 @@ i{
 .header-button{
     border: 1px solid white;
     padding: 8px 24px;
-    border-radius: 4px;
+    border-radius: 10px;
     color: azure;
     background-color: transparent;
     transition: background-color 0.8s;
 }
 .header-button:hover{
     border: 1px solid red;
-    background-color: red;
+    background-color: #911616ab;
 }
 .logo{
     width: 30%;
