@@ -10,7 +10,8 @@
     content: '';
     display: block;
     position: absolute;
-    background-image: linear-gradient(to bottom, #000000f8, #3a38388f
+    background-image: linear-gradient(to bottom, #040449
+    , #3a38388f
     ), url(../img/publico.png);
     left: 0;
     top: 0;
