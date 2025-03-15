@@ -13,6 +13,7 @@
     text-align: center;
     font-size: 38px;
     margin-bottom: 14px;
+    
 }
 .agenda-eventorex{
     flex: 1;
@@ -26,6 +27,7 @@
 .agenda-eventorex img{     
     transition: transform 0.2s;
     border-radius: 10px;
+    width: 100%;
     
 }
 .agenda-eventorex img:hover{
