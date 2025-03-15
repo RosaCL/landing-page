@@ -1,0 +1,75 @@
+.comentarios{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 2rem;
+   margin: auto;
+}
+.opiniao{
+    color: white;
+}
+.opiniao-title{
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+.comentario-subtitle{
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.comentario-card{
+    padding: 0 10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.comentario-minicard{
+    background: rgba(9, 9, 100, 0.226);
+    padding: 2rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 29rem;
+    margin-top: 2rem;
+}
+.cabe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+.card-detalhe{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+.card-titulo{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+}
+.card-avalia{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.comentario-descricao{
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+}
+.comentario-autor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+.comentario-autor img{
+    width: 4rem;
+}
+.nome-autor{
+    color: white;
+    font-size: 2rem;
+    font-weight: 400;
+}

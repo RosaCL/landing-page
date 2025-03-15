@@ -49,3 +49,8 @@ footer{
 .consti{
     width: fit-content;
 }
+.map{
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
