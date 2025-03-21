@@ -12,9 +12,11 @@
 }
 .sobre-content{
     display: flex;
-    flex-direction: column;
-    gap: 1rem;
+    flex-direction: column;    
+    gap: 1rem;  
+    
 }
+
 .sobre-imagens{
     max-width: 55%;
     column-count: 3;
@@ -43,4 +45,5 @@ p{
 span{
     font-size: 2rem;
     text-transform: uppercase;
+    
 }
